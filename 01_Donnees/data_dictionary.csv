@@ -1,0 +1,20 @@
+﻿Variable,Description,Type,Valeurs
+SessionId,Identifiant de session,Texte,Unique
+AdminPages,Nombre de pages administratives consultées,Entier,0 à 27
+AdminTimeSec,"Durée sur pages administratives, secondes",Réel,>= 0
+InfoPages,Nombre de pages d’information consultées,Entier,0 à 24
+InfoTimeSec,"Durée sur pages d’information, secondes",Réel,>= 0
+CatalogPages,Nombre de pages du catalogue consultées,Entier,0 à 650
+CatalogTimeSec,"Temps passé à consulter le catalogue, secondes",Réel,>= 0
+BounceRate,Indicateur de rebond de session,Réel,"0 à 0,2"
+ExitRate,Indicateur de sortie de session,Réel,"0 à 0,2"
+EngagementValue,Indicateur de valeur des pages consultées,Réel,">= 0, souvent nul"
+PromoProximity,Proximité d’une opération promotionnelle,Réel discret,"0 ; 0,2 ; ... ; 1"
+CampaignType,Type de campagne,Catégoriel,"Regular, Holiday, FlashDeal, Seasonal, Clearance"
+DeviceOS,Code du système d’exploitation,Code numérique,1 à 8
+BrowserCode,Code du navigateur,Code numérique,1 à 13
+GeoZone,Code de zone géographique,Code numérique,1 à 9
+EntryChannel,Code de canal d’acquisition,Code numérique,1 à 20
+CustomerType,Type de visiteur,Catégoriel,"Returning, New, Other"
+Weekend,Indicateur de week-end,Binaire,0/1
+Purchased,CIBLE : Achat effectué pendant la session,Binaire,"0 = Non, 1 = Oui"

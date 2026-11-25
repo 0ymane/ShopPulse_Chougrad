@@ -1,0 +1,25 @@
+SHOPPULSE ILIA 2026 - CHALLENGE MACHINE LEARNING
+=================================================
+
+Objectif : predire une probabilite d'achat a partir des caracteristiques
+d'une session de navigation. Consultez l'enonce officiel dans 02_Enonce.
+
+Fichiers de donnees (01_Donnees) :
+  train.csv                Donnees avec la colonne cible Purchased.
+  test.csv                 Observations a predire.
+  sample_submission.csv    Exemple du format attendu pour la soumission.
+  data_dictionary.csv      Dictionnaire des variables.
+
+Une seule soumission finale par groupe sur Google Classroom :
+  - GXX_submission.csv : predictions selon sample_submission.csv
+  - GXX_article.pdf : article scientifique, 4 pages maximum, format IEEE
+  - GXX_ShopPulse_ILIA_2026.zip : code, pipeline final .joblib,
+    requirements.txt, README et fichiers necessaires a l'execution.
+
+Date limite pour tous les livrables : 06/12/2026 a 23 h 59 (heure du Maroc).
+Le classement des equipes sera annonce le 10/12/2026, jour de la colle.
+Evaluation individuelle obligatoire : 10/12/2026.
+Aucune presentation de groupe n'est prevue.
+
+Metrique principale : Average Precision (AP).
+Lisez l'enonce officiel pour toutes les consignes.
